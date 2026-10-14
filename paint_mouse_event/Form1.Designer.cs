@@ -395,16 +395,17 @@
             // 
             // button1
             // 
-            button1.Location = new Point(498, 140);
+            button1.Location = new Point(488, 82);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 2;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(52, 84);
+            numericUpDown1.Location = new Point(42, 84);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(60, 27);
             numericUpDown1.TabIndex = 3;

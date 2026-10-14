@@ -60,5 +60,10 @@
         {
             p.Width = (float)numericUpDown1.Value;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
